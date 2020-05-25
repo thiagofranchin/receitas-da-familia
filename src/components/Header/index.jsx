@@ -1,19 +1,9 @@
-import PropTypes from "prop-types"
 import React from "react"
-import MainNavigation from '../MainNavigation'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
-   <MainNavigation />
+    Header
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

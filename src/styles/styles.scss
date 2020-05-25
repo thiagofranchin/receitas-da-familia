@@ -1,11 +1,10 @@
 $theme-colors: ();
 $theme-colors: map-merge(
   (
-    "gatsby-dark":  #542C85,
-    "gatsby":       #9963BA,
-    "gatsby-light": #C9ABDB,
-    "gray-dark":    #272c30,
-    "gray":         #c8c8c8,
+    "primary":  #45725A,
+    "secondary":#DACEC2,
+    "success":  #FE8340,
+    "light":    #FCF9F4,
   ),
   $theme-colors
 );

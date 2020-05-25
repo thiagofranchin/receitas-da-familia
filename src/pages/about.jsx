@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout"
-import SEO from "../components/Seo"
+import SEO from "../components/seo"
 
 const About = () => (
   <Layout>
@@ -9,8 +8,6 @@ const About = () => (
     <h1>About</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <Link to="/about">About</Link>
-    <Link to="/products">Product</Link>
   </Layout>
 )
 
