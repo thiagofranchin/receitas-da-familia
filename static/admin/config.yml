@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: thiagofranchin/blog-gatsby
+  repo: thiagofranchin/receitas-da-familia
   branch: master
-  site_domain: https://thiagofranchin.netlify.com/
+  site_domain: https://receitasdafamilia.netlify.app/
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"

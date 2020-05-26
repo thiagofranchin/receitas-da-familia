@@ -7,7 +7,7 @@ module.exports = {
     description: `A project make for Decoupled Days 2020`,
     author: `@gatsbyjs`,
     copyright: `© Copyright - All Rights Reserved`,
-    siteUrl: `https://receitas.netlify.app/`,
+    siteUrl: `https://receitasdafamilia.netlify.app/`,
     socialMedia: {
       github: 'https://github.com/',
       codepen: 'https://codepen.io/',
@@ -25,13 +25,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `uploads`,
-    //     path: `${__dirname}/static/assets/img`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

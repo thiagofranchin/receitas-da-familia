@@ -19,13 +19,22 @@ export const SearchWrapper = styled.section`
   .ais-Stats {
     padding: 0.5rem 3rem;
 
+    span {
+      font-size: 1.5rem;
+    }
+
     ${media.lessThan("large")`
       padding: 0.5rem 1rem;
     `}
   }
 
   .ais-SearchBox {
-    padding-top: 6rem;
+    padding-top: 2rem;
+
+    input {
+      background: rgba(254, 131, 64, 0.25);
+      border-radius: 5px;
+    }
 
     ${media.lessThan("large")`
       padding-top: 1rem;

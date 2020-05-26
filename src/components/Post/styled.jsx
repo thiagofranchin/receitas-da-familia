@@ -39,7 +39,7 @@ export const PostDescription = styled.h2`
 `
 
 export const PostDate = styled.p`
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 100;
   padding: 0 1.4rem;
 
@@ -69,7 +69,7 @@ export const MainContent = styled.section`
   iframe,
   .button-post {
     color: var(--postColor);
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.7;
     letter-spacing: 0.069rem;

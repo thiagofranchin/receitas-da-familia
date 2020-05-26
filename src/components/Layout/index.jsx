@@ -9,8 +9,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyles />
-      <Header />
       <MainNavigation />
+      <Header />
       <main>{children}</main>
       <Footer />
     </>

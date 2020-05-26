@@ -1,8 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
-// import getThemeColors from '../../utils/getThemeColors'
-
 import * as S from './styled'
 
 const PostItem = ({ slug, background, category, date, timeToRead, title, description }) => (
